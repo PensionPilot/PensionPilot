@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+.env
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.swp
+*.bak
+*.tmp
+
