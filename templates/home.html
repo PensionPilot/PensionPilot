@@ -1,0 +1,16 @@
+<body>
+    <h1>Hello PensionPilot 👋</h1>
+    <p>Welcome to your Flask app!</p>
+
+    <form method="POST" action="/calculate">
+        <input type="number" name="age" placeholder="Your Age" required><br><br>
+        <input type="number" name="salary" placeholder="Annual Salary" required><br><br>
+        <input type="number" name="contribution" placeholder="Contribution (%)" required><br><br>
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if result %}
+        <h2>Estimated Pension: £{{ result }}</h2>
+    {% endif %}
+</body>
+
